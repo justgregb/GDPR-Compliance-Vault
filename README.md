@@ -8,6 +8,6 @@ Take what works for you and adapt it to your own needs.
 
 # Get started
 
-1.	Download this vault
+1.	[Download this vault](https://github.com/justgregb/GDPR-Compliance-Vault/archive/refs/heads/main.zip)
 2.	Unzip it to a folder of your choice
 3.	Open Obsidian and create a new vault pointing to that folder
