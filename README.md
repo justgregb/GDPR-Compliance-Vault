@@ -8,6 +8,8 @@ This repository is not legal advice and is not a production-ready compliance fra
 
 Take what works for you and adapt it to your own needs.
 
-	1.	Download this vault
-	2.	Unzip it to a folder of your choice
-	3.	Open Obsidian and create a new vault pointing to that folder
+# Get started
+
+1.	Download this vault
+2.	Unzip it to a folder of your choice
+3.	Open Obsidian and create a new vault pointing to that folder
