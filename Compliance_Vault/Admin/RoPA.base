@@ -1,0 +1,36 @@
+filters:
+  and:
+    - file.folder == "Business Functions"
+properties:
+  file.name:
+    displayName: Business Function
+  file.basename:
+    displayName: Business Function
+views:
+  - type: table
+    name: Main view
+    order:
+      - Reference
+      - file.basename
+      - Purpose of Processing
+      - Categories of Data Subjects
+      - Personal Data
+      - Recipient
+      - 3rd Country / International Org Transfer
+      - Safeguards
+      - Retention
+      - Technical and Org Security Measures
+      - Lawful Basis
+      - Notes
+    sort:
+      - property: Reference
+        direction: ASC
+      - property: Purpose of Processing
+        direction: DESC
+      - property: file.basename
+        direction: ASC
+    columnSize:
+      file.basename: 167
+      note.Purpose of Processing: 318
+      note.Categories of Data Subjects: 205
+    rowHeight: tall
