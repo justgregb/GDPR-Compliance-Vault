@@ -1,5 +1,3 @@
-# GDPR-Compliance-Vault
-
 An experimental Obsidian vault for managing GDPR compliance using structured Markdown. Designed to work in Restricted mode with core plugins only.
 
 It follows a bottom-up approach to governance documentation, modelling key elements such as RoPA, DPIAs, LIAs, DSR tracking, processors, and policies.
