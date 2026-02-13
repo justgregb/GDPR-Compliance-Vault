@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.folder == "Employees"
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: Trainings
+    order:
+      - file.name
+      - Job Title
+      - Last Training
+    columnSize:
+      file.name: 168

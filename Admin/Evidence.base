@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Documents
+    filters:
+      and:
+        - file.folder == "Evidence"
+    order:
+      - Reference
+      - file.name
+      - status
+      - Approval Date
+      - Review Due
+      - tags
+    rowHeight: medium
+    columnSize:
+      note.status: 103
